@@ -1,0 +1,15 @@
+.projectsContainer {
+  padding: 2rem 10.3rem 8.6rem;
+}
+
+@media (max-width: 1100px) {
+  .projectsContainer {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .projectsContainer {
+    padding: 1.8rem;
+  }
+}

@@ -1,0 +1,47 @@
+.flex .link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.29px;
+  color: #fff;
+  border-bottom: 1px solid #4ee1a0;
+  height: 38px;
+}
+
+.flex .link:hover {
+  color: #4ee1a0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.flex .title {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 88px;
+  letter-spacing: -2.5px;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .flex {
+    gap: 1rem;
+  }
+  .flex .title {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.14px;
+  }
+  .flex .link {
+    font-size: 12px;
+  }
+  .cardsContainer {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}

@@ -1,0 +1,36 @@
+.footerContainer {
+  padding: 2rem 10.3rem;
+}
+
+.bottomRings {
+  position: absolute;
+  left: -13%;
+  bottom: 20%;
+  margin-bottom: 4rem;
+}
+
+.bottomHr {
+  border: 1px solid rgb(255, 255, 255);
+  margin: 8rem 10.3rem 0;
+}
+
+@media (max-width: 800px) {
+  .footerContainer {
+    padding: 1.8rem;
+  }
+
+  .bottomHr {
+    margin: 4rem 1.8rem 0;
+  }
+
+  .bottomRings {
+    left: -52%;
+    bottom: 10%;
+  }
+}
+@media (max-width: 600px){
+  .bottomRings {
+    left: -73%;
+    bottom: 28%;
+  }
+}

@@ -1,0 +1,50 @@
+.aboutContainer {
+  padding: 0 10.3rem 8.7rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.rings {
+  position: absolute;
+  left: -72px;
+  top: 130px;
+}
+
+.bottomRing {
+  position: absolute;
+  left: 75%;
+  top: 83%;
+}
+
+@media (max-width: 1200px) {
+  .aboutContainer {
+    padding: 0 0rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .aboutContainer {
+    padding: 0 0 1.8rem;
+  }
+  .rings {
+    left: -276px;
+    top: 89px;
+  }
+  .bottomRing {
+    position: absolute;
+    left: 70%;
+    top: 87%;
+  }
+}
+
+@media (max-width: 600px) {
+  .rings {
+    left: -296px;
+    top: 167px;
+  }
+  .bottomRing {
+    position: absolute;
+    left: 50%;
+    top: 90%;
+  }
+}
