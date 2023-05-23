@@ -12,7 +12,7 @@ const languages = [
     time: 1,
   },
   { id: 3, name: "Javascript", time: 1 },
-  { id: 4, name: "Accessibility", time: 1 },
+  // { id: 4, name: "Accessibility", time: 1 },
   { id: 5, name: "React", time: 1 },
   { id: 6, name: "Sass", time: 1 },
 ];
