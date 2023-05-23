@@ -1,37 +1,43 @@
 export const projects = [
   {
     id: 1,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/thumbnail-project-1-large_wgsb55.webp",
-    name: "DESIGN PORTFOLIO",
-    languages: ["HTML", "CSS"],
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1684810583/ECOMMERCE_yyhewc.jpg",
+    name: "ECOMMERCE",
+    languages: ["REACT", "REDUX", "AXIOS", "AWS", "MUI", "FORMIK", "YUP"],
   },
   {
     id: 2,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341048/react-portfolio-frontendMentor/images/thumbnail-project-2-large_kt7qvr.webp",
-    name: "E-LEARNING LANDING PAGE",
-    languages: ["HTML", "CSS"],
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1684810398/RESTCOUNTRIES_uywgel.jpg",
+    name: "REST COUNTRIES",
+    languages: ["REACT", "MUI", 'FORMIK', 'YUP', 'API'],
   },
   {
     id: 3,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341048/react-portfolio-frontendMentor/images/thumbnail-project-3-large_ubg1yv.webp",
-    name: "TODO WEB APP",
-    languages: ["HTML", "CSS", "JAVASCRIPT"],
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1684810759/REACTPORFOLIO_cuh9pa.jpg",
+    name: "PORTFOLIO",
+    languages: ["REACT", "HTML", "CSS", 'FORMIK', 'YUP'],
   },
   {
     id: 4,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341049/react-portfolio-frontendMentor/images/thumbnail-project-4-large_r4mzxh.webp",
-    name: "ENTERTAINMENT WEB APP",
-    languages: ["HTML", "CSS", "JAVASCRIPT"],
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1684810871/DETAILS_PAGE_tepwig.jpg",
+    name: "E-COMMERCE PRODUCT PAGE",
+    languages: ["REACT", "HTML", "CSS"],
   },
   {
     id: 5,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341049/react-portfolio-frontendMentor/images/thumbnail-project-5-large_mleygz.webp",
-    name: "GAME",
-    languages: ["HTML", "CSS", "JAVASCRIPT"],
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1684811149/PORTFOLIO_HTML_efwkvf.png",
+    name: "PORTFOLIO",
+    languages: ["HTML", "CSS", "JAVASCRIPT", 'BOOTSTRAP'],
   },
   {
     id: 6,
-    source: "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341050/react-portfolio-frontendMentor/images/thumbnail-project-6-large_y8lftb.webp",
+    source:
+      "https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341050/react-portfolio-frontendMentor/images/thumbnail-project-6-large_y8lftb.webp",
     name: "GALLERY",
     languages: ["HTML", "CSS", "JAVASCRIPT"],
   },

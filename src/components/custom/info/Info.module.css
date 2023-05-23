@@ -69,7 +69,7 @@
 }
 
 .infoContainer .profilePicture {
-  width: 445px;
+  width: 480px;
   height: auto;
   position: absolute;
   top: 0;
@@ -149,7 +149,7 @@
   .infoContainer .profilePicture {
     width: 174px;
     right: 28%;
-    top: 0%;
+    top: 22%;
   }
   .infoContainer .circle {
     right: -14%;

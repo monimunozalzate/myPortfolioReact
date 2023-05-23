@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <Box className={styles.navbar}>
       <Typography variant="body1" color={"#FFFFFF"} className={styles.name}>
-        adamkeyes
+        monicaMunoz
       </Typography>
       <Box className={styles.iconsBox}>
         <IconButton>

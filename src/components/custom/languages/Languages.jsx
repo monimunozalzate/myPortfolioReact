@@ -4,17 +4,17 @@ const languages = [
   {
     id: 1,
     name: "HTML",
-    time: 4,
+    time: 1,
   },
   {
     id: 2,
     name: "CSS",
-    time: 4,
+    time: 1,
   },
-  { id: 3, name: "Javascript", time: 4 },
-  { id: 4, name: "Accessibility", time: 4 },
-  { id: 5, name: "React", time: 3 },
-  { id: 6, name: "Sass", time: 3 },
+  { id: 3, name: "Javascript", time: 1 },
+  { id: 4, name: "Accessibility", time: 1 },
+  { id: 5, name: "React", time: 1 },
+  { id: 6, name: "Sass", time: 1 },
 ];
 
 const Languages = () => {

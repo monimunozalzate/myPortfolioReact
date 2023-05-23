@@ -13,30 +13,30 @@ const Info = () => {
       <Box className={styles.personsinfo}>
         <Box>
           <Typography variant="h1" className={styles.h1}>
-            Nice to meet you! I’m <span>Adam Keyes.</span>
+            Nice to meet you! I’m <span>Monica Munoz.</span>
           </Typography>
           <Typography variant="body1" className={styles.paragraph}>
-            Based in the UK, I’m a front-end developer passionate about building
+            Based in Colombia, I’m a front-end developer passionate about building
             accessible web apps that users love.
           </Typography>
         </Box>
         {size.width > 800 && (
           <img
-            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341046/react-portfolio-frontendMentor/images/image-profile-desktop_ysqoy4.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1684809379/WhatsApp_Image_2023-01-26_at_08.26.06_q5qsgo.jpg"
             alt="profile picture"
             className={styles.profilePicture}
           />
         )}
         {size.width > 600 && size.width < 800 && (
           <img
-            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/image-profile-tablet_qv4qya.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1684809379/WhatsApp_Image_2023-01-26_at_08.26.06_q5qsgo.jpg"
             alt="profile picture"
             className={styles.profilePicture}
           />
         )}
         {size.width < 600 && (
           <img
-            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1683341047/react-portfolio-frontendMentor/images/image-profile-mobile_ibmmzp.webp"
+            src="https://res.cloudinary.com/dwqrlr45w/image/upload/v1684809379/WhatsApp_Image_2023-01-26_at_08.26.06_q5qsgo.jpg"
             alt="profile picture"
             className={styles.profilePicture}
           />
