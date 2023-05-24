@@ -20,7 +20,6 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit, form, sendEma
         </Typography>
       </Grid>
       <form 
-      ref={form}
       onSubmit={handleSubmit}
       className={styles.right}>
         <TextField
@@ -48,7 +47,7 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit, form, sendEma
           id="filled-multiline-static"
           multiline
           rows={4}
-          defaultValue="MESSAGE"
+          placeholder="MESSAGE"
           variant="filled"
           className={styles.textArea}
           sx={{ padding: "none" }}
@@ -69,7 +68,6 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit, form, sendEma
             variant="text"
             type="submit"
             className={styles.btn}
-            onClick={sendEmail}
           >
             SEND MESSAGE
           </Button>
