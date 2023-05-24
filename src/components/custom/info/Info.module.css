@@ -26,7 +26,8 @@
   z-index: 10;
   margin-right: 1.8rem;
 }
-.navbar .iconsBox button:hover {
+.navbar .iconsBox a{padding: 0.7rem; border-radius: 50%;}
+.navbar .iconsBox a:hover {
   background-color: #4ee1a0 !important;
 }
 .infoContainer .circle {

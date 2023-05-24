@@ -24,7 +24,7 @@ const CardComponent = ({ project }) => {
             <Box className={styles.linksBox}>
               <a
                 rel="noopener noreferrer"
-                href="https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x/hub"
+                href={project.url}
                 target="_blank"
                 className={styles.link}
               >
@@ -32,7 +32,7 @@ const CardComponent = ({ project }) => {
               </a>
               <a
                 rel="noopener noreferrer"
-                href="https://www.frontendmentor.io/challenges/singlepage-developer-portfolio-bBVj2ZPi-x/hub"
+                href={project.code}
                 target="_blank"
                 className={styles.link}
               >
