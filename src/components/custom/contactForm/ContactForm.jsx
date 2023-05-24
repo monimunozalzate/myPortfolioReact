@@ -1,7 +1,8 @@
 import { Grid, Typography, TextField, Button, Box } from "@mui/material";
 import styles from "./ContactForm.module.css";
 
-const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
+
+const ContactForm = ({ values, errors, handleChange, handleSubmit, form, sendEmail }) => {
   
   return (
     <Grid
@@ -19,6 +20,7 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
         </Typography>
       </Grid>
       <form 
+      ref={form}
       onSubmit={handleSubmit}
       className={styles.right}>
         <TextField
@@ -67,7 +69,7 @@ const ContactForm = ({ values, errors, handleChange, handleSubmit }) => {
             variant="text"
             type="submit"
             className={styles.btn}
-            onClick={console.log(values)}
+            onClick={sendEmail}
           >
             SEND MESSAGE
           </Button>
